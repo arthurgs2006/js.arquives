@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Tic Tac Toe</h1>
+      <h5>Jogo da Velha</h5>
+    </header>
+    <section>
+      <div id="user-area">
+        <label for="player1">X:</label>
+        <input id="player1" class="input" type="text" placeholder="Jogador 1">
+        <label for="player2">O:</label>
+        <input id="player2" class="input" type="text" placeholder="Jogador 2">
+      </div>
+      <div id="main-player">
+        <label name='turn-player' for="turn-player">Vez de: <span id="turn-player"></span></label>
+      </div>
+      <div id="tictac-area">
+        <span id="area1 areagrid" class="cursor-pointer" data-region='0.0'></span>
+        <span id="area2 areagrid" class="cursor-pointer" data-region='0.1'></span>
+        <span id="area3 areagrid" class="cursor-pointer" data-region='0.2'></span>
+        <span id="area4 areagrid" class="cursor-pointer" data-region='1.0'></span>
+        <span id="area5 areagrid" class="cursor-pointer" data-region='1.1'></span>
+        <span id="area6 areagrid" class="cursor-pointer" data-region='1.2'></span>
+        <span id="area7 areagrid" class="cursor-pointer" data-region='2.0'></span>
+        <span id="area8 areagrid" class="cursor-pointer" data-region='2.1'></span>
+        <span id="area9 areagrid" class="cursor-pointer" data-region='2.2'></span>
+      </div>
+    </section>
+    <footer>
+      <button id="start" class="restart" >Start</button>
+    </footer>
+  </main>
+
+  
+</body>
+</html>

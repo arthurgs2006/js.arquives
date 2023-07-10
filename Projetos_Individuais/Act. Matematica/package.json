@@ -1,0 +1,26 @@
+{
+  "name": "act.-matematica",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "Arthur",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "babel-core": "^4.7.16",
+    "babel-loader": "^9.1.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.3"
+  }
+}

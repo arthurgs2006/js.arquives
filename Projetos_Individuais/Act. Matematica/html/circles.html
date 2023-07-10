@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Version 2</title>
+    <script src="./../js/scriptCircle.js" type="module"></script>
+    <link rel="stylesheet" href="./../style/styleCircles.css">
+</head>
+
+<body>
+    <header>
+        <a href="./principal.html">
+            <img src="./../images/circle.svg" id="headerImage">
+        </a>
+
+    </header>
+    <main>
+        <section>
+            <form>
+                <input type='radio' name="opt" id="area" value="0" class="opt" checked>
+                <label for="area">Área</label>
+                <input type='radio' name="opt" id="perimeth" value="1" class="opt" checked>
+                <label for="perimeth">Perímetro</label>
+                <br>
+                <span id="inputArea"></span>
+                <br>
+                <button id="submit">Calcular</button>
+            </form>
+        </section>
+        <aside id="result">
+            <p id="res"></p>
+        </aside>
+        <aside id="information">
+            <h2>Círculos: </h2>
+            <p id="text-information">
+                Uma circunferência é uma forma geométrica que consiste em todos os pontos equidistantes de um ponto
+                central chamado centro. É uma curva fechada que não possui ângulos ou lados definidos. O raio é a
+                distância do centro até qualquer ponto da circunferência. O diâmetro é o dobro do raio. A circunferência também
+                possui uma medida chamada de comprimento da circunferência, que é calculada usando a fórmula C = 2πr,
+                onde π (pi) é uma constante aproximadamente igual a 3,14. As circunferências têm diversas aplicações em
+                geometria, trigonometria, física e em muitos campos da ciência e da engenharia.
+            </p>
+            <div id="images-space">
+                <img alt="Círculo" src="./../images/circleImg.png"><img alt="Circunfêrencia com Detalhes"
+                    src="./../images/circunferencia.png">
+                    <!-- <img alt="Triângulo Escaleno"
+                    src="./../images/arrow-point-to-down.png"> -->
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>Arthur Gonçalves Saldanha</p>
+    </footer>
+</body>
+
+</html>

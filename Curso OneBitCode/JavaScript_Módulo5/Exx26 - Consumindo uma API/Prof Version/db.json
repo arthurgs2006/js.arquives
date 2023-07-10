@@ -1,0 +1,24 @@
+{
+  "amount": [
+    {
+      "id": 1,
+      "name": "Transference for Arthur",
+      "amount": 3200
+    },
+    {
+      "id": 2,
+      "name": "Senac Ribeirão Preto",
+      "amount": -700
+    },
+    {
+      "id": 3,
+      "name": "CPFL Bill",
+      "amount": -200
+    },
+    {
+      "id": 4,
+      "name": "Fast Shop (Smartphone Samsung)",
+      "amount": -800
+    }
+  ]
+}

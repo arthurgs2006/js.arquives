@@ -1,0 +1,62 @@
+Para acessar o github, deverá ser instalado o Terminal do Linux no seu computador
+Além disso, sua aplicação será desenvolvida a partir da instalação do app do Ubuntu pela Microsoft Store
+
+
+Os principais comandos utilizados no terminal são:
+echo "" -> Siginifica escreva
+pwd -> Mostra o diretório em que o terminal está
+ls -> Lista todas as coisas que estão no seu diretório
+mkdir -> Cria uma nova pasta
+cd -> Entra em uma pasta
+cd.. -> Volta a pasta anterior
+cd ../.. -> Volta 2 pastas anteriores e assim procede.
+touch -> Cria um arquivo novo
+echo "hello" >> file.txt -> Insere uma info de texto no arquivo 
+cat -> Mostra o que tem no arquivo
+less -> Informa o conteúdo daquele arquivo (Para sair aperte Q)
+cp -> Duplica dois arquivos
+mv -> Apagar um arquivo e criar outro com o conteudo do apagado
+rm -> Remover um arquivo
+rm -rf (nome da pasta) -> Remove um diretório
+clear -> Limpa o terminal
+history -> Mostra o histórico de comandos inseridos
+!(num do comando) -> Executa o comando já executado 
+history | grep (comando) -> Filtra o histórico para coisas a partir de tal comando inserido
+exit -> Fecha o terminal
+
+Comandos:
+git init -> iniciar a plataforma git
+git log -> Verificar quais commits estão ou foram feitos
+git add (nome do arquivo) -> Enviar ao test do GIT
+git commit -m (nome do arquivo) -> Enviar um commit ao GIT
+git log --pretty=oneline -> Resumir todos os commits em uma linha
+git log --stat -> Mostrar quais foram as alterações realizadas no commit
+git diff -> Diferença entre os arquivos
+gif diff --name-only -> Diferença entre arquivos que foram modificados
+git add . -> Add todos os arquivos não registrados
+git commit --amend -> Alterar um arquivo já comitado
+git reset HEAD -- (nome do arquivo) -> Resetar um arquivo na área de test do GitHub
+git checkout -- (nome do arquivo) -> Volta o arquivo para como ele era antes do último commit
+git branch -> Mostra todas as branchs (ramificações) criadas no seu código
+git branch (nome) -> Cria uma repartição com um nome novo no seu código
+git checkout (nome da branch) -> Muda em qual repartição você está localizado
+git checkout -D (nome da branch) -> Remove uma branch do código
+git checkout -b (nome da branch) -> Cria uma branch e já muda para ela
+git merge (nome do arquivo[sem a extensão .(nome da extensão)]) -> Coleta o arquivo em outra branch e addiciona a branch que está 
+git merge (nome da branch) -> Coleta as info em uma branch e passa para outra
+git clone (https adress) -> Clone para a pasta criada toda API do GitHub
+
+branchs:
+Ao realizar uma alteração em uma branch, o arquivo deverá ser adicionado e em seguida comitado para ter seu progresso salvo
+merge -> Envia as alterações de uma branch para outra branch
+
+Adicionando ao GitHub:
+git push origin master -> Upload do arquivo a constar no GitHub
+git pull origin master -> Download do arquivo que consta no GitHub
+
+token gerado para o portfolio do gitHub:
+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
+
+utilizando o arquivo .gitignore e inserindo extensões, arquivos e regras, você poderá
+fazer com que alog não seja lançado para a plataforma do git.
+* gem -> Todos os arquivos com extensão gen serão ignorados

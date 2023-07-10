@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transações Financeiras</title>
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form class="newTransition" action="http://localhost:3000/transitionsList" method="post">
+    <h1>Nova Transação: </h1>
+    <input type="hidden" name="id">
+    <label for="title">Nome: </label>
+    <input type="text" id="title">
+    <label for="value">Valor: </label>
+    <input type="number" id="value">
+    <button>TRANSFER</button>
+  </form>
+  <hr>
+  <div>
+    <h1>Transações: </h1>
+    <p id="totalAmount">Saldo: </p>
+  <div id="transitionsList">
+    
+  </div>
+  </div>
+  
+</body>
+</html>

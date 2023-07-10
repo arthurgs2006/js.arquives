@@ -1,0 +1,54 @@
+h1 {
+  background-color: black;
+  color: wheat;
+  border-color: green;
+  border-width: 2px;
+  border-style: solid;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/c3/a5/b3/c3a5b332f9716abb1c67da38a12595e8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lista {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.big-text {
+  font-size: x-large;
+}
+
+#Io {
+  font-size: smaller;
+}
+
+* {
+  border: 2px solid black;
+}
+
+li a {
+  color: blue;
+}
+
+li > a {
+  background-color: beige;
+}
+
+h1 + h4 {
+  border-radius: 1rem;
+}
+
+a[href="google.com"] {
+  border-radius: 4rem;
+}
+
+li:nth-of-type(odd) {
+  color: purple;
+}
+
+li ~ li {
+  text-align: center;
+}

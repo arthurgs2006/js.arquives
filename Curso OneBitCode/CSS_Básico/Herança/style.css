@@ -1,0 +1,8 @@
+div {
+  color: blue;
+  border: 2px solid;
+}
+
+div ul {
+  border: inherit;
+}

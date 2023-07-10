@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Find on Google</title>
+  </head>
+  <body>
+    <h3>Find on Google</h3>
+    <form action="https://www.google.com/search" method="get">
+      <label for="q">O que deseja pesquisar?</label>
+      <input
+        type="text"
+        id="q"
+        name="q"
+        placeholder="Digite aqui..."
+        size=""
+        autocomplete="on"
+        required
+      />
+      <input list="browsers"
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Opera"></option>
+        <option value="Chrome"></option>
+      </datalist>
+
+      <br />
+      <input
+        type="email"
+        id="q"
+        name="q"
+        placeholder="Digite aqui seu email..."
+        autofocus
+      />
+      <input
+        type="number"
+        id="q"
+        name="q"
+        placeholder="Digite aqui..."
+        min="10"
+        max="12"
+      />
+      <input type="submit" value="Pesquisar" />
+    </form>
+  </body>
+</html>

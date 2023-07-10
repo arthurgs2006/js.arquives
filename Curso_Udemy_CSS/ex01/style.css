@@ -1,0 +1,76 @@
+/* Iniciando curso de arquivo CSS
+Para abrir o comentário é so colocar /*
+Para fecha-lo é só colocar */
+
+/*TAGS*/
+body {
+    background-color: rgb(126, 75, 75);
+    font: white;
+
+
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+
+/*Para formatar a página inteira, utiliza-se o * */
+*{ 
+    background-color: #3baefe  #7b60fd;
+    padding: 1em 1em 1em 1em;
+}
+
+
+header{
+    background-color: maroon;
+    height: 100px;
+    margin: 10px;
+    border-radius: 1em;
+
+}
+/*IDs*/
+
+div#divleft{
+    width: 50%;
+    background-color: blue;
+    min-height: 200px;
+    float: left;
+    border-radius: 1em;
+    margin-right: 5px;
+    
+}
+
+div#divright{
+    width: 30%;
+    background-color: blue;
+    min-height: 200px;
+    float: right;
+    border-radius: 1em;
+    
+}
+/*Padding se da a margem interna
+margin se da a margem externa */
+footer{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    border-radius: 1em;
+    
+
+}
+
+/*Class*/
+.container {
+    width: 960px;
+    margin: auto;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    
+}
+
+.container2 {
+    width: 960px;
+    margin: auto;
+
+}

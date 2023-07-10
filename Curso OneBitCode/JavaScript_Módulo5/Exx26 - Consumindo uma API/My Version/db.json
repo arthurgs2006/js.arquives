@@ -1,0 +1,24 @@
+{
+  "transitionsList": [
+    {
+      "id": 1,
+      "name": "Transference Morrice",
+      "value": 12000
+    },
+    {
+      "id": 2,
+      "name": "Transference Pocoyo",
+      "value": 5000
+    },
+    {
+      "name": "Arthur",
+      "value": "1300",
+      "id": 3
+    },
+    {
+      "name": "arthur",
+      "value": "120",
+      "id": 4
+    }
+  ]
+}

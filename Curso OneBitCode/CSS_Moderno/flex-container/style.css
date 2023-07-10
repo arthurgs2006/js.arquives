@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /*melhor alinhamento*/
+}
+
+.container {
+  background-color: darkslategray;
+  min-height: 100vh; /*melhor que px*/
+  gap: 0px 15px;
+  flex-wrap: wrap; /*nowrap, reverse*/
+  align-items: center; /*stretch -> esticar*/
+  justify-content: center; /*flex-start,flex-end,space-around, space-evenly e space-between*/
+  display: flex; /*propiedade como os itens são organizados*/
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #808080;
+  background-color: bisque;
+  font-size: 20px;
+  text-align: center;
+  padding: 90px 0;
+}

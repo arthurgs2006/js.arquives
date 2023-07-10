@@ -1,0 +1,10 @@
+{
+  "description": "",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc"
+  }
+}
