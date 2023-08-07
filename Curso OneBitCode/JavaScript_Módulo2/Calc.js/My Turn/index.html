@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calc.JS by Arthur</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main data-theme="dark">
+    <header>
+      <h1>Calc.js</h1>
+      <button id="switch-theme">Switch Theme (Dark / Light)</button>
+      <hr>
+    </header>
+    <section>
+      <input type="text" id="input-equation" class="input">
+      <div class="container">
+        <button id="buttonC" class="button" data-value="">C</button>
+        <button id="button(") class="button" data-value="(")>(</button>
+        <button id="button)" class="button" data-value=")">)</button>
+        <button id="button/" class="button" data-value=" / ">/</button>
+        <button id="button7" class="button" data-value="7">7</button>
+        <button id="button8" class="button" data-value="8">8</button>
+        <button id="button9" class="button" data-value="9">9</button>
+        <button id="button*" class="button" data-value=" * ">*</button>
+        <button id="button4" class="button" data-value="4">4</button>
+        <button id="button5" class="button" data-value="5">5</button>
+        <button id="button6" class="button" data-value="6">6</button>
+        <button id="button-" class="button" data-value=" - ">-</button>
+        <button id="button1" class="button" data-value="1">1</button>
+        <button id="button2" class="button" data-value="2">2</button>
+        <button id="button3" class="button" data-value="3">3</button>
+        <button id="button+" class="button" data-value=" + ">+</button>
+        <button id="button0" class="button" data-value="0">0</button>
+        <button id="buttondot" class="button" data-value=".">.</button>
+        <button id="buttonMod" class="button" data-value=" % ">mod</button>
+        <button id="button=" class="button" data-value="=">=</button>
+      </div>
+    </section>
+    <footer>
+      <button id="copytoClipboard" class="copytoClipboard">Copy</button>
+      <input type="text" id="input-result" class="input" disabled>
+    </footer>
+  </main>
+</body>
+</html>

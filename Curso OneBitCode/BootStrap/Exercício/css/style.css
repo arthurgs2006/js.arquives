@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.back {
+  background-image: url(../images/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #FFF;
+}
+
+form {
+  background-color: #3a3434;
+  max-width: 435px;
+  height: auto;
+  padding: 3vh;
+  border-radius: 2vh;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.qualities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vh;
+}
+
+footer {
+  margin-top: 2vh;
+}
+
+/*# sourceMappingURL=style.css.map */

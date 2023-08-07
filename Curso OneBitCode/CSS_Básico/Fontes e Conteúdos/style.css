@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+p {
+  /* Utilize várias fonts para seu site ser utilizado em diversos dispositivos.*/
+  margin-top: 40px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: right;
+  font-weight: 600;
+  line-height: 1.5; /*<-Espaçamento entre linhas*/
+  padding: 15px;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  margin: 200px auto 400px auto;
+  background-color: whitesmoke;
+  border-radius: 40px;
+  border: 2px solid black;
+  text-decoration: overline underline line-through; /*Line Through é para riscar o texto ao meio*/
+}

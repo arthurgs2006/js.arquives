@@ -1,0 +1,7 @@
+Para acionar o minify na compressão do arquivo, utilize o seguinte comando:
+O minify compacta o arquivo do css, fazendo com que ocupe o menor espaço possível
+
+sass --watch (nome da pasta)/(nome do arquivo).(ext do arquivo):(nome da pasta)/(nome do arquivo).css --style compressed
+
+example:
+sass --watch sass/style.scss:css/style.css --style compressed

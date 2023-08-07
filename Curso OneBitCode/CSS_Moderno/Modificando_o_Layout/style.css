@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid; /*Divida a página entre as divs, de forma que preencha todo espaço do display*/
+  background-color: darkslategray;
+  min-height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 15px;
+  grid-auto-rows: minmax(210px, 100%);
+  /* grid-template-rows: 1fr 2fr 1fr; */
+  /*a div a preencher a página, deixando-as maiores ou menores.*/
+} /* Utilize o comando repeat(), para evitar escrever manualmente e automatizar seu código.*/
+/*fr é uma nova medida, ótima para utiizar para layout*/
+#words {
+  background-color: whitesmoke;
+  width: 100%;
+  min-height: 4vh;
+  font-size: 20px;
+  border: 3px solid black;
+  padding: 10px;
+}

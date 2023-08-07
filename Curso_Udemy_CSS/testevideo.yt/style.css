@@ -1,0 +1,58 @@
+
+
+body{
+    display: flex;
+    background: linear-gradient(rgb(183, 0, 255) , rgb(204, 0, 255), blueviolet);
+    color: white;
+    font-family: Arial, Helvetica;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+.container {
+    position: relative;
+    width: 420px;
+    height: 420px;
+    border-radius: 1rem;
+    background-color:rgb(0, 0, 0);
+    border-color: gray;
+    padding: 20px 15px 15px 20px;
+    
+
+    
+
+
+}
+
+.blank_space {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(54, 51, 51);
+    border-color: transparent;
+    margin-bottom: 10px;
+    
+}
+
+button#button{
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-color: white;
+    font-size: 20px;
+    padding: 10px;
+    float:right;
+
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+
+}

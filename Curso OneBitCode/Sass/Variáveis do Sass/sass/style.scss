@@ -1,0 +1,12 @@
+$btn-color: #ff4043; //criando variaveis no scss
+$width-button: 75px;
+
+.btn1{
+  width: $width-button;
+  background-color: $btn-color;
+}
+.btn2{
+  width: $width-button;
+  background-color: $btn-color;
+}
+

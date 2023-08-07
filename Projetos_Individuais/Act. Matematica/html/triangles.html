@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Version 2</title>
+    <script src="./../js/script.js" type="module"></script>
+    <link rel="stylesheet" href="./../style/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="./principal.html">
+            <img src="./../images/triangle.svg" id="headerImage">
+        </a>
+
+    </header>
+    <main>
+        <section>
+            <form>
+                <input type='radio' name="opt" id="area" value="0" class="opt" checked>
+                <label for="area">Área</label>
+                <input type='radio' name="opt" id="perimeth" value="1" class="opt" checked>
+                <label for="perimeth">Perímetro</label>
+                <br>
+                <span id="inputArea"></span>
+                <br>
+                <button id="submit">Calcular</button>
+            </form>
+        </section>
+        <aside id="result">
+            <p id="res"></p>
+        </aside>
+        <aside id="information">
+            <h2>Triângulos: </h2>
+            <p id="text-information">
+                Triângulos são polígonos com três lados e três ângulos. Podem ser classificados por lados em
+                equiláteros, isósceles ou escalenos. Quanto aos ângulos, podem ser retângulos (com um ângulo reto),
+                obtusângulos (com um ângulo obtuso) ou acutângulos (todos os ângulos agudos). Essas classificações podem
+                se combinar. O estudo dos triângulos é essencial na geometria e suas propriedades são aplicadas em
+                várias áreas.
+            </p>
+            <div id="images-space">
+                <img alt="Triângulo Equilátero" src="./../images/levels.png"><img alt="Triângulo Retângulo"
+                    src="./../images/plain-triangle.png"><img alt="Triângulo Escaleno"
+                    src="./../images/arrow-point-to-down.png">
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>Arthur Gonçalves Saldanha</p>
+    </footer>
+</body>
+
+</html>

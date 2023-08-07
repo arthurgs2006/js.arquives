@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ESNext",
+    "outDir": "public/dist"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

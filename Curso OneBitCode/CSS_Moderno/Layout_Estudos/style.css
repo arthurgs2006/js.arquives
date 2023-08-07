@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /*melhor alinhamento*/
+}
+
+.container {
+  background-color: darkslategray;
+  min-height: 100vh; /*melhor que px*/
+  flex-direction: column; /*há o modo reverse também*/
+  row-gap: 15px;
+
+  display: flex; /*propiedade como os itens são organizados*/
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #808080;
+  background-color: bisque;
+  font-size: 20px;
+}

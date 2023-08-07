@@ -1,0 +1,13 @@
+.text {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(238, 17, 17, 0.877);
+}
+
+.btn {
+  padding: 1rem;
+  border: 1px solid red;
+  background-color: rgba(240, 240, 11, 0.856);
+}
+
+/*# sourceMappingURL=style.css.map */

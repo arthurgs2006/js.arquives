@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista e Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Analisador de Números
+        </h1> 
+    </header>
+
+    <section>
+        <div id=" org">
+                <p>
+                    Escolha um número entre 0 à 100:
+                    <input type="Number" size="7" id="box" class="box" >
+                    <input type="button" size="7" id="buttonadd" value="Adicionar" class="box" onclick= "add()"> 
+                </p>
+                <select size="7" id="boxselect" class = "box"> 
+                    
+                    <option>
+                        Insira o número no espaço acima para iniciar.
+                    </option>
+                </select>
+                <input type="button" size="7" id="buttonadd" value="Processar"class="box" onclick="analisar()"> 
+        </div>
+        <div id = res>
+
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy;arthurgonsal</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

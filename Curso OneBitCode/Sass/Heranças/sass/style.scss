@@ -1,0 +1,16 @@
+.btn{
+  padding: 1rem;
+  border-radius: 1rem;
+  display: block;
+  margin-top: 1rem;
+
+  &.btn1{
+    background-color: yellow;
+  }
+  &.btn2{
+    background-color: red;
+  }
+  &.btn3{
+    background-color: blue;
+  }
+}

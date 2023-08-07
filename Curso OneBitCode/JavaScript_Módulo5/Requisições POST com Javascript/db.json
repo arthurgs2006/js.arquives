@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Olá mundo!",
+      "content": "Sequência de palavras, geralmente latinas ou alatinadas, utilizada para preencher o espaço destinado a texto numa publicação, página de Internet, interface gráfico, etc. e testar as opções de formatação e edição e o arranjo dos elementos gráficos antes da inserção do conteúdo.",
+      "author": "Arthur"
+    },
+    {
+      "id": 2,
+      "title": "Requisições para POST com JS",
+      "content": "Sequência de palavras, geralmente latinas ou alatinadas, utilizada para preencher o espaço destinado a texto numa publicação, página de Internet, interface gráfico, etc. e testar as opções de formatação e edição e o arranjo dos elementos gráficos antes da inserção do conteúdo.",
+      "author": "Arthur"
+    },
+    {
+      "title": "aamdmlãs",
+      "author": "dasdas",
+      "content": "a; madm/ças,dç/m aç/dm~kae[´o[ekaçsmd´~ke [al d[a][dl ,[]ak d^kd as~d, as~d,]ad;\r\n",
+      "id": 3
+    },
+    {
+      "title": "AKDS~K´~APKSDS",
+      "author": "Arthur",
+      "content": "/ÇJ~ÇAI ´DI[-AIDÃJ´SDK A´~MD´,ASD´MA´SDMA[D I\nANS\nD OA[JSD[ I\nDSAIDJAID\nKD\nAK\n DLA\n D\nOADS\nOÁSDKÃS,~KDASDASD...",
+      "id": 4
+    },
+    {
+      "title": "asdjõajds",
+      "author": "arthur",
+      "content": "DSA,]I A=]DIN]AIDS ][K]ASD K",
+      "id": 5
+    }
+  ]
+}

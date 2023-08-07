@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escalação de Jogadores</title>
+  <script src="./script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Escalação de Jogadores</h1>
+  <section id="addplayer">
+    <h2>Adicionar Jogador ---</h2>
+    <label for="name">
+      Nome: 
+    </label>
+    <input id="name" class="type-box"><br><br>
+    <label for="number">Nº do Jogador: </label>
+    <input id="number" class="type-box"><br><br>
+    <label for='position'>Posição: </label>
+    <input id="position" class="type-box">
+    <button onclick="addplayer()">Escalar</button>
+  </section>
+  <section id="removeplayer">
+    <h2>Remover Jogador ---</h2>
+    <label for="number_remove">Nº do Jogador: </label>
+    <input id="number_remove" class="type-box">
+    <button onclick="removeplayer()">Remover</button>
+  </section>
+  
+  <section class="list-players">
+    <h2>Time Escalado:</h2>
+    <ul id="player-list"></ul>
+  </section> 
+</body>
+</html>

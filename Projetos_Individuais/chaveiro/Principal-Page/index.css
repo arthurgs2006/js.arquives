@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.header{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  height: 13vh;
+  flex-wrap: wrap;
+}
+
+body{
+  background-color: #1F2022;
+  
+}
+
+#logo-cb{
+  width: 22vh;
+  margin: 1vh auto;
+  height: auto;
+  margin-top: 3vh;
+  transition: 0.3s;
+}
+/* Animation State: logo-cb */
+#logo-cb:hover{
+  width: 23vh;
+  cursor: pointer;
+}
+
+.nav-bar{
+  height: 8vh;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.header-nav{
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.links{
+  transition: 0.3s;
+  margin-inline-start: 15px;
+  text-decoration: none;
+  color:whitesmoke;
+  cursor: pointer;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  border-radius: 1vh;
+  padding: 1vh;
+  
+}
+.links:hover{
+  border: 1px solid #1F2022;
+}
+.section{
+  display: inline;
+  position: relative;
+}
+#keyInfo{
+  width: auto;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./img/chaveiro-image.jpg');
+  filter: blur(2px) ;
+  opacity: 0.3;
+}
+#background-title, #background-subtitle {
+  position: absolute;
+  color: #FFF;
+  bottom: 5vh;
+  left: 3vh;
+  font-weight: 750;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#background-title{
+  font-size: 8vh;
+}
+#background-subtitle{
+  bottom: 2vh;
+  font-size: 3vh;
+  font-weight: 500;
+}
+img{
+  width: 50vh;
+}

@@ -1,0 +1,51 @@
+body {
+    background: whitesmoke;
+    font-style: normal;
+    font: normal 15pt arial;
+
+}
+
+header {
+    text-align: center;
+
+}
+
+section {
+    background-color: maroon;
+    color: wheat;
+    border-radius: 1em;
+    margin: auto;
+    padding: 10px 15px 10px;
+    width: 600px;
+    box-shadow: 5px 5px 10px black;
+    
+    
+
+}
+
+.fullybox {
+    border-radius: 1em;
+    text-align: center;
+    padding: auto;
+    position: fixed;
+    left: 58.5%;
+    
+}
+
+.shotbox {
+    text-align: right;
+    border-radius: 1em;
+    background-color:aliceblue;
+    font: black;
+    align-items: right;
+    position: fixed;
+    left: 67.5%;
+
+
+
+}
+
+footer {
+    text-align: center;
+
+}

@@ -1,0 +1,45 @@
+
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 15pt;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: red;
+    color: whitesmoke;
+    margin: auto;
+    width: 600px;
+    border-radius: 1em;
+    padding: 10px 10px 10px;
+    box-shadow: 5px 5px 5px rgb(136, 13, 119);
+    
+}
+
+.box {
+    border-radius: 1em;
+    bottom: auto;
+    text-align: center;
+    margin-top: 1em;
+    
+    
+}
+
+.boxtab {
+    border-radius: 1em;
+    bottom: auto;
+    text-align: left;
+    margin-top: 10px;
+    vertical-align: middle;
+    
+}
+footer {
+    text-align: center;
+    color: white;
+
+}

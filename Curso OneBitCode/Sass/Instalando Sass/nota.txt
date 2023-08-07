@@ -1,0 +1,6 @@
+sass -> Semelhante a python, não há colchetes e ; separando o código.
+scss -> Semelhante ao css
+
+Para iniciar o Sass no arquivo, inicie o comando abaixo:
+sass --watch (nome da pasta do arquivo do sass).(extensão do arquivo [sass || scss]):style/style.css
+Inicie com o terminal bash (do linux)

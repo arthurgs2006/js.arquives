@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>www.ex02.com</title>
+  </head>
+  <body>
+    <h1>Cadastro da Liga dos Astronautas</h1>
+    <form action=>
+      <label for="name">Name:</label>
+      <input type="name" id="name" size="20" />
+
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" size="20" /> --
+      <label for="password">Password:</label>
+      <input type="password" id="password" size="20" />
+
+      <br /><br />
+
+      <label for="nasc">Data de Nascimento:</label>
+      <input id="nasc" type="date" />
+      <label for="file"> -- Foto:</label>
+      <input id="file" type="file" />
+
+      <br /><br />
+
+      <label for="Nacionalidade">Nacionalidade:</label>
+      <select id="Nacionalidade">
+        <option disabled selected>-- Selecione sua Nacionalidade --</option>
+        <option value="Brasileiro">Brasileiro</option>
+        <option value="Estado Unidense">Estado Unidense</option>
+        <option value="Russo">Russo</option>
+      </select>
+      -
+      <label for="gen">- Gênero:</label>
+      <label for="Masculino">M</label>
+      <input type="radio" id="gen" name="Masculino" />
+      <label for="Feminino">F</label>
+      <input type="radio" id="gen" name="Feminino" />
+
+      <br /><br />
+
+      <p>Suas principais qualidades:</p>
+      <input type="checkbox" id="i" />
+      <label for="i">Inteligência</label>
+      <input type="checkbox" id="r" />
+      <label for="r">Resiliência</label>
+      <input type="checkbox" id="p" />
+      <label for="p">Preparo Físico</label>
+      <input type="checkbox" id="e" />
+      <label for="e">Educação</label>
+
+      <br /><br />
+
+      <textarea
+        id="textarea"
+        style="height: 300px; width: 300px"
+        placeholder="Porque você gostaria de ser um astronauta?"
+      ></textarea>
+
+      <br /><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+
+body {
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+
+
+
+
+}
+
+header {
+    text-align: center;
+    color: white;
+
+
+
+
+}
+
+section {
+    background-color: azure;
+    margin: auto;
+    width: 600px;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+
+
+}
+
+footer {
+    text-align: center;
+
+
+}
+
+.box {
+    border-radius: 5px;
+    text-align: center;
+
+
+}

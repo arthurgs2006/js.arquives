@@ -1,0 +1,14 @@
+@mixin text-configuration ($color, $font-size, $font-family){
+  color: $color;
+  font-family:$font-family;
+  font-size: $font-size;
+}
+
+.texts{
+  h1{
+    @include text-configuration(#ff14, 34px, Arial );
+  }
+  p{
+    @include text-configuration(#ff14, 34px, Arial );
+  }
+}

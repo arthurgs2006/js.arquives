@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", //directory output (Diretório de saída)
+    "watch": true, // Torna o código em observação, ou seja, altera durante a executação do código
+  }
+}

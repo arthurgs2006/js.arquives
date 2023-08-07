@@ -1,0 +1,16 @@
+.container{
+  ul{
+    background-color: rgb(168, 124, 124);
+  }
+  li{
+    background-color: #ce1d1d;
+  }
+  button{
+    padding: 5rem;
+    border-radius: 1vh;
+    cursor: pointer;
+      &:hover{
+        background-color: #ce1d1d;
+      }
+  }
+}

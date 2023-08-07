@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto&display=swap");
+* {
+  background-color: whitesmoke;
+  font-family: "Roboto", cursive, sans-serif;
+}
+
+article {
+  width: 75%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 30px;
+}
+
+h4 {
+  text-transform: uppercase;
+  color: #008080;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-t
+}
+
+hr {
+  width: 85%;
+}
+

@@ -1,0 +1,17 @@
+.btn {
+  padding: 1rem;
+  border-radius: 1rem;
+  display: block;
+  margin-top: 1rem;
+}
+.btn.btn1 {
+  background-color: yellow;
+}
+.btn.btn2 {
+  background-color: red;
+}
+.btn.btn3 {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

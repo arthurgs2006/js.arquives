@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Version 2</title>
+    <script src="./../js/scriptSquare.js" type="module"></script>
+    <link rel="stylesheet" href="./../style/styleSquare.css">
+</head>
+
+<body>
+    <header>
+        <a href="./principal.html">
+            <img src="./../images/square.svg" id="headerImage">
+        </a>
+    </header>
+    <main>
+        <section>
+            <form>
+                <input type='radio' name="opt" id="area" value="0" class="opt">
+                <label for="area">Área</label>
+                <input type='radio' name="opt" id="perimeth" value="1" class="opt">
+                <label for="perimeth">Perímetro</label>
+                <select id="figure" name="chooseFigure">
+                    <option selected disabled value="5">Figura</option>
+                    <option value="0">Retângulo</option>
+                    <option value="1">Quadrado</option>
+                    <option value="2">Losango</option>
+                    <option value="3">Trapézio</option>
+                    <option value="4">Paralelogramo</option>
+                </select>
+                <br>
+                <span id="inputArea"></span>
+                <br>
+                <button id="submit">Calcular</button>
+            </form>
+        </section>
+        <aside id="result">
+            <p id="res"></p>
+        </aside>
+        <aside id="information">
+            <h2>Quadriláteros Notáveis: </h2>
+            <p id="text-information">
+                Os quadriláteros notáveis são tipos especiais de quadriláteros com propriedades distintas. Alguns
+                exemplos incluem o quadrado, que tem quatro lados congruentes e ângulos retos; o retângulo, com quatro
+                ângulos retos; o losango, com lados congruentes; e o trapézio, que possui pelo menos um par de lados
+                paralelos. Cada quadrilátero notável possui características matemáticas únicas e interessantes.Além
+                desses quadriláteros, existem outros notáveis, como o paralelogramo, que possui lados opostos paralelos
+                e congruentes, por exemplo.
+            </p>
+            <div id="images-space">
+                <img alt="Paralelogramo" src="./../images/paralelogram.png"><img alt="Losango"
+                    src="./../images/lozange.png"><img alt="Retângulo" src="./../images/rectangle.png">
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>Arthur Gonçalves Saldanha</p>
+    </footer>
+</body>
+
+</html>
