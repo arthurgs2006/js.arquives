@@ -8,7 +8,7 @@ Links:
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 Pode ser por npm dentro da aplicação e aplicado com o Sass
 
-Documentação da OneBitCode com cada elemento do Bootstrap repartido a ser utilizado:
+Documentação da OneBitCode com cada elemento do Bootstrap repartido a ser utilizado:  
 https://bootstrapdoconebitcode.netlify.app/
 
 Tipografia e Conteúdos extraoficiais apresentados pela OneBitCode:

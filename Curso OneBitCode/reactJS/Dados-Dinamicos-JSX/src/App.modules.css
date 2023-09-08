@@ -1,0 +1,12 @@
+
+
+.app{
+  background-color: #2c2c2d;
+  display: grid;
+  min-Height: 100vh;
+  place-Content: center;
+  text-Align: center;
+}
+
+/*Outra forma de escrever Modulos do CSS, em vez de in-line no JS, será possível escrever
+em estilo cascata, utilzando ferramentas como MediaQuery, por exemplo.*/

@@ -1,0 +1,63 @@
+
+$background-color: #ADD8E6;
+.background-red{
+  background-color:red!important ;
+  color: maroon;
+  button{
+    color: maroon;
+    &:hover{
+      background-color: red;
+    }
+  }
+}
+.card{
+  margin: 1vh;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  max-width: 100vh;
+  border-radius: 3vh;
+  max-height: 50vh;
+  flex-direction: row;
+  background-color: $background-color;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  .img-space{
+    max-width: 100vh;
+  }
+}
+.image{
+  width: 30vh;
+  margin: 1rem;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  p{
+    width: 90%;
+
+  }
+
+  button{
+    margin-top: 2vh;
+    max-width: 30vh;
+    padding: 2vh;
+    border-radius:2vh;
+    background-color: white;
+    border: 3px solid white;
+    color: $background-color;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      background-color: $background-color;
+      color: white;
+      transition: 0.3s;
+    }
+    &:active{
+      transform: scale(0.8);
+    }
+
+  }
+}
+

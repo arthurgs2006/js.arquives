@@ -45,6 +45,8 @@ git checkout -b (nome da branch) -> Cria uma branch e já muda para ela
 git merge (nome do arquivo[sem a extensão .(nome da extensão)]) -> Coleta o arquivo em outra branch e addiciona a branch que está 
 git merge (nome da branch) -> Coleta as info em uma branch e passa para outra
 git clone (https adress) -> Clone para a pasta criada toda API do GitHub
+git remote set-url origin (https adress) -> Setar o repositório a ser utilizado ao terminal
+
 
 branchs:
 Ao realizar uma alteração em uma branch, o arquivo deverá ser adicionado e em seguida comitado para ter seu progresso salvo

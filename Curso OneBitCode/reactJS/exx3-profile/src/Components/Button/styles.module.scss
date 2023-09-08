@@ -1,0 +1,15 @@
+
+.btn{
+  width: 20vh;
+  height: 5vh;
+  margin-top: 1vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  border: 0 ;
+  border-radius: 1vh;
+  background: rgba(4,141,198,1);
+  &:hover{
+    cursor: pointer;
+    transform: scale(.97,.96);
+  }
+}
