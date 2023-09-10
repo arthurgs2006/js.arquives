@@ -1,0 +1,25 @@
+
+form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+  box-shadow: #000 1vh 1vh 1rem;
+  border-radius: 1vh;
+  padding: 1rem;
+  align-items: center;
+  div{
+    display: flex;
+    gap: 1.5vh;
+    button{
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.btn{
+  justify-self: center;
+  align-items: center;
+}
+
