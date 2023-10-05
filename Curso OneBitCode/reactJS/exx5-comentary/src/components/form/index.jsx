@@ -1,6 +1,7 @@
 import Input from '../input/input';
 import Title from '../title/title.jsx';
 import emailFunctions from '../../hooks/script.jsx'
+import {addTweet } from '../../hooks/script.jsx'
 import { useState } from 'react';
 import './style.module.scss';
 

@@ -68,7 +68,7 @@ button:focus-visible {
 
 .content{
   display: flex;
-  justify-content: left;
+  justify-content: right ;
   flex-direction: row;
   gap: 10vh;
 }
