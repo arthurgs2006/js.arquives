@@ -1,0 +1,23 @@
+
+Next JS 
+
+Criar um arquivo NEXT js (javascript vanilla):
+
+npx create-next-app black-nextjs 
+
+É possível criar com typescript:
+
+npx create-next-app black-nextjs --typescript
+
+É possível hospedar o website na própia Vercel (Criadora do NextJS), criando uma conta e vinculando ao seu GitHub.
+Ao realizar o commit para seu repositório, o site hospedado na Vercel, vai adicionar ou alterar os elementos que foram substituidos/criados 
+pelo Dev em seu site, sincronizando qualquer alteração em tempo real.
+
+Acesse o site da Vercel e crie uma conta vinculando ao GitHub: 
+
+https://vercel.com/ (Página da Vercel)
+https://nextjs.org/ (Documentação do Next)
+
+após isso, insira seu repositório e inicie suas alterações para deixar o website mais completo.
+
+Lembre-se de utilizar o npm run build para construir seu website em uma versão ao navegador.
