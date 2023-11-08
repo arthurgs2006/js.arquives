@@ -1,20 +1,21 @@
+'use client';
+
 import { ProductType } from "@/services/products"
-import { ReactNode, useState } from "react"
 import { createContext } from "vm"
-import {useEffect} from "react"
+import {useEffect, useContext, ReactNode} from "react"
+import { useState } from "react"
 
 
 type CartContextType = {
-    cart: ProductType[]
-    addProduct: (product: ProductType) => void
-    removeProduct: (productID: number) => void
-}
+  cart: ProductType[];
+  addProduct: (product: ProductType) => void;
+  removeProduct: (productID: number) => void;
+};
 
+// const myValue = useContext<ServerContextJSONValue>(context as ServerContextJSONValue);
 const CartContext = createContext<CartContextType>({} as CartContextType)
 
 // src/hooks/useCart.tsx
-
-// ...
 
 export const CartContextProvider = (props: {
   children: ReactNode
@@ -23,7 +24,6 @@ export const CartContextProvider = (props: {
 
   useEffect(() => {
     const storedCart = localStorage.getItem('shopping-cart')
-
     if (storedCart) {
       setCart(JSON.parse(storedCart))
     }
@@ -55,4 +55,6 @@ export const CartContextProvider = (props: {
   );
 }
 
-export const useCart = () => useContext(CartContext)
+export function useCart(){
+  useContext(CartContext)
+}

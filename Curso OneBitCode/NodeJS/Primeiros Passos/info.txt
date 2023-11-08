@@ -1,0 +1,6 @@
+Node JS utiliza do terminal para executar arquivos, compilados, rotas, etc.
+Utilize neste caso:
+
+$ node (nome do arquivo).(extensão do arquivo)
+
+realizando o código acima, você executa o arquivo e o renderiza no terminal
